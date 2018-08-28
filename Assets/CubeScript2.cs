@@ -13,9 +13,7 @@ public class CubeScript2 : MonoBehaviour {
 	void Update () {
     transform.Rotate(new Vector3(0, 0, 5));
     transform.Rotate(new Vector3(0, 5, 0));
-    transform.Rotate(new Vector3(5, 0, 0));
-        Vector3 pos = transform.position;
-        pos.y += (float)0.2;
-        transform.position = pos;
+    transform.Rotate(new Vector3(6, 0, 0));
+        
 }
 }
