@@ -11,11 +11,10 @@ public class CubeScript2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-    transform.Rotate(new Vector3(0, 0, 5));
-    transform.Rotate(new Vector3(0, 5, 0));
-    transform.Rotate(new Vector3(5, 0, 0));
+    transform.Rotate(new Vector3(0, 7, 5));
+    transform.Rotate(new Vector3(5, 0, 1));
         Vector3 pos = transform.position;
-        pos.y += (float)0.2;
+        pos.y += (float)0.8;
         transform.position = pos;
 }
 }
